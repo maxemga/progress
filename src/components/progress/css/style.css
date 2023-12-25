@@ -1,3 +1,8 @@
+@import url('./circle.css');
+@import url('./colors.css');
+@import url('./input.css');
+@import url('./toggler.css');
+
 .progress {
   display: flex;
   align-items: center;
