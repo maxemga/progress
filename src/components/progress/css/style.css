@@ -2,6 +2,16 @@
 @import url('./colors.css');
 @import url('./input.css');
 @import url('./toggler.css');
+@import url('./reset.css');
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 
 .progress {
   display: flex;
