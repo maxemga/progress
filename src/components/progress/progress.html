@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/circle.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="css/toggler.css">
+  <link rel="stylesheet" href="css/input.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="progress">
+    <div class="circle">
+      <svg class="circle-svg">
+        <circle class="circle-background" cx="50%" cy="50%" r="40%" />
+        
+        <circle class="circle-fill" cx="50%" cy="50%" r="40%" />
+      </svg>
+    </div>  
+  
+    <div class="panel">
+      <div class="panel-tool">
+        <input class="progress-value" type="text" value="0">
+
+        <span>Value</span>
+      </div>
+
+      <div class="panel-tool">
+        <label class="switch">
+          <input class="switch-animate" type="checkbox">
+          <span class="slider" />
+        </label>
+
+        <span>Animate</span>
+      </div>
+
+      <div class="panel-tool">
+        <label class="switch">
+          <input class="switch-visible" type="checkbox">
+          <span class="slider" />
+        </label>
+
+        <span>Hide</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
